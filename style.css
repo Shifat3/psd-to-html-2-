@@ -1,0 +1,225 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.html{
+	scroll-behavior: smooth;
+}
+
+.header{
+	background-color: #87509c;
+	}
+.header .logo img{
+margin-left: 0px;
+padding-top: 20px;
+width: 82px;
+}
+.header .menu ul{
+	
+	padding-left: 200px;
+}
+.header .menu ul a{
+	color: white;
+	padding: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 15px;
+}
+.header .menu ul a:hover{
+	background-color:#643a79;
+}
+.header-content{
+	
+     margin: auto;
+	padding-top: 80px;
+	color: white;
+	font-weight: 200;
+}
+.header-content h2{
+	
+padding-left: 30px;
+font-size: 27px;
+font-weight: 400;
+}
+.header-content h3{
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.bttn{
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 120px;
+	
+}
+.bttn .btn a{
+	color: white;
+	text-decoration: none;
+	padding: 15px 47px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+}
+.bttn .btn{
+	background-color: #eb7d4b;
+}
+.service{
+	background-color: #17c2a4;
+}
+.service .ser_heading{
+	display: block;
+	text-align: center;
+	padding-top: 35px;
+	color: white;
+	padding-bottom: 40px;
+}
+.service h1 {
+padding-bottom: 5px;
+padding: 10px;
+	
+}
+.service p{
+	
+	padding-top: 5px;
+}
+.service hr{
+	width: 70px;
+	height: 2px;
+	background-color:#878787;
+}
+.service .ser_content{
+          text-align: center;
+          
+          color: white;
+          padding: 22px;
+          
+}
+
+.service .ser_content img{
+	padding-bottom: 30px;
+
+}
+.service .ser_content h3{
+	font-size: 17px;
+	padding-bottom: 20px;
+}
+.service .ser_content p{
+	font-size: 14px;
+}
+.team{
+	background-color: #e7f1f8;
+
+}
+.team .team_head{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding-top: 70px;
+}
+.team .team_head hr{
+	width: 70px;
+	height: 2px;
+	background-color:#878787;
+}
+.team .team_content{
+	padding-bottom: 30px;
+	margin: auto;
+
+	
+
+}
+.team .team_content .stage{
+	padding: 10px 30px;
+}
+.team .team_content img{
+	border-radius: 50%;
+	padding-bottom: 20px;
+	margin: auto;
+}
+.team .team_content h2{
+	font-size: 20px;
+	
+}
+.team .team_content h6{
+	
+	padding-bottom: 20px;
+	font-size: 13px;
+	color: #30bae7;
+	padding-left: 10px;
+}
+.team .team_content p{
+	font-size: 14px;
+}
+.social_icon{
+	margin-top: 30px;
+}
+.social_icon ul{
+	list-style: none;
+	
+}
+.social_icon ul li{
+	display: inline-block;
+}
+.social_icon ul li a{
+	color: white;
+	padding: 0px 8px;
+
+
+
+}
+.social_icon ul li a:link i::before{
+	background-color:#bdd1df;
+ 
+     text-align: center;
+     padding: 5px;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 15px;
+	transition:.5s;
+}
+.social_icon ul li a:hover i::before{
+	background-color: green;
+	transform: rotate(360deg);
+}
+.skill_section{
+	background-color: #fff;
+}
+.skill_section .skill_text{
+text-align: center;
+display: block;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+.skill_section .skill_text hr{
+		width: 70px;
+	height: 2px;
+	background-color:#878787;
+
+
+}
+.skill_section .skill_content{
+	text-align: center;
+	padding-bottom: 50px;
+}
+svg.radial-progress circle{
+	stroke-width:5;
+}
+svg.radial-progress text{
+	fill: #3c4761;
+	font-size: 15px;
+}
+svg .web circle{
+stroke: #30bae7;
+}
+svg .html_css circle{
+stroke: #30bae7;
+}
+svg .graphic circle{
+stroke: #30bae7;
+}
+svg .ui_ux circle{
+stroke: #30bae7;
+}
